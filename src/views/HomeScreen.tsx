@@ -7,12 +7,14 @@ import Badge from 'react-bootstrap/Badge';
 
 import UsersList from '../components/UsersList';
 import Statistics from '../components/Statistics';
+import Filtering from '../components/Filtering';
+import Sorting from '../components/Sorting';
 
 const HomeScreen = () => {
     return (
         <Container fluid>
-            <Row className="center">
-                <Col>
+            <Row >
+                <Col className="d-flex justify-content-center">
                     <h1>
                         <Badge variant='info'>
                             TEAM MEMBERS
@@ -27,15 +29,15 @@ const HomeScreen = () => {
 
             <Row>
                 <Col xs={12} lg={6}>
-                    Filtering
+                    <Filtering />
                 </Col>
                 <Col xs={12} lg={6}>
-                    Sorting
+                    <Sorting />
                 </Col>
             </Row>
 
             <Row>
-                <Col>
+                <Col className="d-flex justify-content-around">
                     <UsersList />
                 </Col>
             </Row>
