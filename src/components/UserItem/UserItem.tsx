@@ -9,7 +9,7 @@ interface UserItemProps {
 
 const UserItem: React.FC<UserItemProps> = ({ userData }) => {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
             <Card.Img variant='top' src={userData.cached_avatar} />
             <Card.Body>
                 <Card.Title>{userData.name}</Card.Title>
