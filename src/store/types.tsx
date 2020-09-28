@@ -32,13 +32,13 @@ export interface SET_ERROR {
 }
 
 export interface SortingState {
-    field: string;
+    field: 'created_at' | 'updated_at' | 'name' | 'email';
     type: 'asc' | 'desc' | boolean;
 }
 
 export interface SET_SORTING_FIELD {
     type: string;
-    payload: string;
+    payload: 'created_at' | 'updated_at' | 'name' | 'email';
 }
 
 export interface SET_SORTING_TYPE {
@@ -47,13 +47,13 @@ export interface SET_SORTING_TYPE {
 }
 
 export interface FilterState {
-    field: string;
+    field: 'name' | 'email';
     content: string;
 }
 
 export interface SET_FILTER_FIELD {
     type: string;
-    payload: string;
+    payload: 'name' | 'email';
 }
 
 export interface SET_FILTER_CONTENT {
