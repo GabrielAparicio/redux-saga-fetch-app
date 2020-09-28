@@ -8,6 +8,7 @@ import {
 } from '../../store/selectors';
 
 import Col from 'react-bootstrap/Col';
+import Alert from 'react-bootstrap/Alert';
 
 const Statistics = () => {
     const members = useSelector(numOfMembersSelector);
@@ -18,19 +19,27 @@ const Statistics = () => {
     return (
         <>
             <Col xs={12} lg={3}>
-                <p>Members: {members}</p>
+                <Alert variant='primary'>
+                    Members: {members}
+                </Alert>
             </Col>
             
             <Col xs={12} lg={3}>
-                <p>Last user added on: {lastUserDate}</p>
+                <Alert variant='secondary'>
+                    Last user added on: {lastUserDate}
+                </Alert>
             </Col>
 
             <Col xs={12} lg={3}>
-                <p>Invited users: {invitedUsers}</p>
+                <Alert variant='warning'>
+                    Invited users: {invitedUsers}
+                </Alert>
             </Col>
 
             <Col xs={12} lg={3}>
-                <p>Published Campaigns: {publishedCampaigns}</p>
+                <Alert variant='info'>
+                    Published Campaigns: {publishedCampaigns}
+                </Alert>
             </Col>
         </>
     );
