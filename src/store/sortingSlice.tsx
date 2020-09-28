@@ -6,7 +6,7 @@ import {
  } from './types';
 
 const initialState: SortingState= {
-    field: 'title',
+    field: 'created_at',
     type: 'desc'
 };
 
