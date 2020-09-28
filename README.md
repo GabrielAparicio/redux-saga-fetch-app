@@ -1,6 +1,6 @@
 #### Chameleon technical exercise
 
-I prioritized the design and structure of the application so that it's easy to extend, modify, maintain and understand.
+I prioritized the design and structure of the application over appearance, so that it's easy to extend, modify, maintain and understand.
 
 Despite the fact that redux has been accused of being too verbose, I find it very useful to structure a maintainable and scalable application, and don't forget that with the help of technologies like redux-toolkit it's easier to set up the initial config needed to run a redux app now (boilerplate code is no longer a hassle). React Context API was on the table too, but I rather use it as a complementary tool (React Context API wasn't design to support a big number of state updating operations, so we can take advantage of its simplicity in parts of the app where we don't need to dispatch actions very frequently).
 
