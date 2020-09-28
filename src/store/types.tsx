@@ -60,3 +60,7 @@ export interface SET_FILTER_CONTENT {
     type: string;
     payload: string;
 }
+
+export interface FETCH_USERS {
+    type: string;
+}
