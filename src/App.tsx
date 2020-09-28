@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
 
+import HomeScreen from './views/HomeScreen';
+
 function App() {
   return (
-    <div>
-      Hello world
-    </div>
+    <HomeScreen />
   );
 }
 
