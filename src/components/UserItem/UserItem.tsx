@@ -14,7 +14,7 @@ const UserItem: React.FC<UserItemProps> = ({ userData }) => {
             <Card.Body>
                 <Card.Title>{userData.name}</Card.Title>
                 <Card.Text>
-                {userData.email}
+                    {userData.email}
                 </Card.Text>
             </Card.Body>
         </Card>
