@@ -3,20 +3,26 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Badge from 'react-bootstrap/Badge';
+
+import UsersList from '../components/UsersList';
+import Statistics from '../components/Statistics';
 
 const HomeScreen = () => {
     return (
         <Container fluid>
-            <Row>
+            <Row className="center">
                 <Col>
-                    Users
+                    <h1>
+                        <Badge variant='info'>
+                            TEAM MEMBERS
+                        </Badge>
+                    </h1>
                 </Col>
             </Row>
 
             <Row>
-                <Col>
-                    Statistic
-                </Col>
+                <Statistics />
             </Row>
 
             <Row>
@@ -30,7 +36,7 @@ const HomeScreen = () => {
 
             <Row>
                 <Col>
-                    Todo List
+                    <UsersList />
                 </Col>
             </Row>
 
