@@ -6,7 +6,7 @@ import {
 } from './types';
 
 const initialState: FilterState = {
-    field: 'created_at',
+    field: 'name',
     content: ''
 };
 
