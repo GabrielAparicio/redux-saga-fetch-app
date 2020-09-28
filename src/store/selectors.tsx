@@ -40,7 +40,7 @@ export const lastUserDateSelector = createSelector(
     [users],
     (users) => {
         const sortedUsers = _.orderBy(users, ['created_at'], ['desc']); 
-        return sortedUsers[0].created_at;
+        return sortedUsers[0] ? sortedUsers[0].created_at : '';
     }
 );
 
