@@ -26,7 +26,7 @@ const UsersList: React.FC = () => {
 
     if(error) {
         return (
-            <ErrorView errorMessage='Unable to show users'>
+            <ErrorView errorMessage='Unable to show team members'>
                 <RetryButton />
             </ErrorView>
         );
@@ -34,9 +34,9 @@ const UsersList: React.FC = () => {
         
     const mappedUsers = users.map((user) => <UserItem key={user.id} userData={user} />);
     return (
-        <>
+        <div>
             {mappedUsers}
-        </>
+        </div>
     );
 };
 
