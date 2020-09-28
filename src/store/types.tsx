@@ -33,7 +33,7 @@ export interface SET_ERROR {
 
 export interface SortingState {
     field: string;
-    type: string;
+    type: 'asc' | 'desc' | boolean;
 }
 
 export interface SET_SORTING_FIELD {
@@ -43,7 +43,7 @@ export interface SET_SORTING_FIELD {
 
 export interface SET_SORTING_TYPE {
     type: string;
-    payload: string;
+    payload: 'asc' | 'desc' | boolean;
 }
 
 export interface FilterState {
