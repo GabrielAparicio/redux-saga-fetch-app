@@ -7,7 +7,10 @@ export interface User {
     cached_avatar: string;
     agent: string;
     style: string;
-    stats: object;
+    stats: {
+        invited_users_count: number | null;
+        published_campaigns_count: number | null;
+    };
 }
 
 export interface UserState {
