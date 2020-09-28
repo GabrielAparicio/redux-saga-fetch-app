@@ -25,13 +25,13 @@ const Statistics = () => {
             </Col>
             
             <Col xs={12} lg={3}>
-                <Alert variant='secondary'>
+                <Alert variant='primary'>
                     Last user added on: {lastUserDate}
                 </Alert>
             </Col>
 
             <Col xs={12} lg={3}>
-                <Alert variant='warning'>
+                <Alert variant='info'>
                     Invited users: {invitedUsers}
                 </Alert>
             </Col>
