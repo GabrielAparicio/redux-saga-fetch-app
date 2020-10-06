@@ -1,4 +1,4 @@
-#### Chameleon technical exercise
+#### React redux fetch app
 
 I prioritized the design and structure of the application over appearance, so that it's easy to extend, modify, maintain and understand.
 
