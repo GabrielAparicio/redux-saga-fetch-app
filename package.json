@@ -2,9 +2,7 @@
   "name": "technical-exercise",
   "version": "0.1.0",
   "authors": [
-    "recruiting+engineering@trychameleon.com",
-    "ben@trychameleon.com",
-    "brian@trychameleon.com"
+    "sgaparicio22@gmail.com"
   ],
   "private": true,
   "dependencies": {
