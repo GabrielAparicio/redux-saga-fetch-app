@@ -6,7 +6,6 @@ import {
     numOfInvitedUsers,
     numOfPublishedCampaigns
 } from '../../store/selectors';
-
 import Col from 'react-bootstrap/Col';
 import Alert from 'react-bootstrap/Alert';
 
