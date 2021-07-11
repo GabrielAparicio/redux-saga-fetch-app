@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react';
 import UserItem from '../UserItem';
-
 import LoadingView from '../../views/LoadingView';
 import ErrorView from '../../views/ErrorView';
 import RetryButton from '../RetryButton';
-
 import { usersSelector, isLoadingSelector, errorSelector } from '../../store/selectors';
 import { useDispatch, useSelector } from 'react-redux';
 
