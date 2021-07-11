@@ -5,7 +5,6 @@ import FormGroup from 'react-bootstrap/FormGroup';
 import FormLabel from 'react-bootstrap/FormLabel';
 import FormControl from 'react-bootstrap/FormControl';
 
-
 const Filtering = () => {
 
     const dispatch = useDispatch();
