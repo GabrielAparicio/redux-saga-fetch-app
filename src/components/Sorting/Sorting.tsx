@@ -1,12 +1,10 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setSortingField, setSortingType } from '../../store/sortingSlice';
-
 import FormGroup from 'react-bootstrap/FormGroup';
 import FormCheck from 'react-bootstrap/FormCheck';
 import FormControl from 'react-bootstrap/FormControl';
 import FormLabel from 'react-bootstrap/FormLabel';
-
 import { selectProps, radioProps } from './sortingProps';
 
 
