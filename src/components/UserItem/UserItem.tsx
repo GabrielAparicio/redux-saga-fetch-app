@@ -1,6 +1,5 @@
 import React from 'react';
 import { User } from '../../store/types';
-
 import Card from 'react-bootstrap/Card';
 
 interface UserItemProps {
